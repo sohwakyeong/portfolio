@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'Pretendard';
+  font-weight: 800;
+  font-display: swap;
+  src: url('https://github.com/orioncactus/pretendard/releases/download/v1.3.9/Pretendard-ExtraBold.woff2') format('woff2');
+}
+  @font-face {
+    font-family: 'KakaoBigSans-ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoBigSans-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+@keyframes text-blur-out {
+    0% {
+        filter: blur(0.01px);
+        opacity:1;
+      }
+    100% {
+        filter: blur(12px);
+        opacity: 0;
+      }
+  }
+  .text-blur {
+    animation: text-blur-out 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+
+  
