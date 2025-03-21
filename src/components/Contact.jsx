@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="container mx-auto px-4 sm:px-10 md:px-20">
         {copied && (
           <div className="text-white-400 text-sm mt-2 transition-opacity animate-fade-in">
-            {copied.includes("http") ? "링크가" : "이메일이"} 복사되었습니다!
+            {copied.includes("https") ? "링크가" : "이메일이"} 복사되었습니다!
           </div>
         )}
         <div className="flex justify-center gap-6 mb-6">
